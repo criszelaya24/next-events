@@ -15,6 +15,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "eslint-config-lint": "git+https://github.com/criszelaya24/eslint-config"
+    "eslint-config-lint": "git+https://github.com/criszelaya24/eslint-config",
+    "eslint-config-react-app": "^7.0.1"
   }
 }
