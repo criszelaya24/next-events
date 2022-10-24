@@ -2,13 +2,13 @@ import EventDetail from './eventDetail';
 
 const EventList = ({ events }) => {
     return (
-        <>
-            { events.map(event => {
+        <div className='list'>
+            { events.map((event, index) => {
                 return (
-                    <EventDetail event={event}/>
+                    <EventDetail key={index} event={event}/>
                 );
             })}
-        </>
+        </div>
     );
 };
 
