@@ -1,10 +1,11 @@
-import Link from 'next/link';
+import { getAllEvents } from '../../dummy-data';
+import EventList from '../../components/events/eventList';
 const Events = () => {
+    const events = getAllEvents();
+
     return (
         <>
-            <h1>Events Page</h1>
-            <Link href="/events/123">Link to specific event</Link>
-            <Link href="/events/2022/10/25">Filter Events</Link>
+            <EventList events={events}/>
         </>
     );
 };

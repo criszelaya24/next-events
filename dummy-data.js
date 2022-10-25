@@ -27,7 +27,7 @@ const DUMMY_EVENTS = [
         location: 'My Street 12, 10115 Broke City',
         date: '2022-04-10',
         image: 'https://source.unsplash.com/random/1920x1080/?wallpaper,Networking',
-        isFeatured: true,
+        isFeatured: false,
     },
 ];
 
