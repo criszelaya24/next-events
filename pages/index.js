@@ -1,7 +1,7 @@
 import { getFeaturedEvents } from '../dummy-data';
 import EventList from '../components/events/eventList';
 
-const Home = ({ events }) => {
+const Home = ({ events = [] }) => {
     return (
         <>
             <EventList events={events}/>
